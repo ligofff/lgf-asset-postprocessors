@@ -48,6 +48,8 @@ namespace EasyAssetPipeline
             return InternalAssetRemoved(removedAssetPath);
         }
 
+        public abstract void OnScriptsReload();
+
         protected Object GetObjectFromPath(string path)
         {
             return AssetDatabase.LoadAssetAtPath<Object>(path);

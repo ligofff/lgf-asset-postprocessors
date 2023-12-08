@@ -4,5 +4,7 @@
     {
         public bool TryProcessAsset(string importedAssetPath);
         public bool TryProcessRemovedAsset(string importedAssetPath);
+
+        public void OnScriptsReload();
     }
 }
