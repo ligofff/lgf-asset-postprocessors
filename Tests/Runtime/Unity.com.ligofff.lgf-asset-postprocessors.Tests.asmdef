@@ -1,0 +1,11 @@
+{
+  "name": "Unity.com.ligofff.lgf-asset-postprocessors.Tests",
+  "references": [
+    "Unity.com.ligofff.lgf-asset-postprocessors"
+  ],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": []
+}

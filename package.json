@@ -1,0 +1,27 @@
+{
+  "name": "com.ligofff.lgf-asset-postprocessors",
+  "displayName": "Ligofff - LGF Asset Postprocessors",
+  "version": "0.1.0",
+  "unity": "2022.2",
+  "description": "Package for Unity game engine.",
+  "keywords": [
+    "unity",
+	"unity3d",
+	"upm",
+    "ligofff",
+    "utility"
+  ],
+  "homepage": "https://github.com/ligofff/lgf-asset-postprocessors.git",
+  "bugs": {
+    "url": "https://github.com/ligofff/lgf-asset-postprocessors/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ligofff/lgf-asset-postprocessors.git"
+  },
+  "license": "MIT",
+  "author": "Ligofff (https://ligofff.com)",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
