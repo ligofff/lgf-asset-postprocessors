@@ -1,5 +1,6 @@
 ﻿using System;
 using UnityEditor;
+using UnityEngine;
 using Object = UnityEngine.Object;
 
 namespace EasyAssetPipeline
@@ -17,6 +18,12 @@ namespace EasyAssetPipeline
         private bool Filter(Object asset, string assetPath)
         {
             if (!isEnabled) return false;
+
+            if (asset == null)
+            {
+                Debug.LogWarning($"Asset at {assetPath} is null. Skipping.");
+                return false;
+            }
 
             if (!PathOnlyFilter(assetPath)) return false;
 
